@@ -12,10 +12,13 @@ days_to_units(55, "awesome!")
 days_to_units(544, "good!")
 """
 #my code is a function calculats the number of hours in the day with variables days and printing message
-def hours_on_days (no_of_days,message):
+def hours_on_days(no_of_days, message):
     calculation = no_of_days * 24 
-    print (f"the number of hours on {no_of_days} days is = {calculation}")
-    print (message)
+    print(f"The number of hours on {no_of_days} days is = {calculation}")
+    print(message)
 
-#calling the function     
-hours_on_days(30,"wowww its a big number")
+# Taking user input
+user_input=int(input("inter the number of days ")) 
+
+# Calling the function  
+hours_on_days(user_input, "thanks for using our function")
