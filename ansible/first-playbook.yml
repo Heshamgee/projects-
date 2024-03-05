@@ -1,0 +1,11 @@
+
+---
+- name: first play
+  hosts: all
+  tasks:
+  - name: create a new file
+    file:
+     path: /home/hesham/foo.conf
+     owner: hesham
+     state: touch
+...
