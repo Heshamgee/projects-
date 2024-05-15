@@ -1,0 +1,14 @@
+Sat Apr 13 09:31:28 PM EET 2024
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 18:31 ?        00:00:04 /usr/lib/systemd/systemd rhgb --switched-root --system --deserialize 31
+root           2       0  0 18:31 ?        00:00:00 [kthreadd]
+root           3       2  0 18:31 ?        00:00:00 [rcu_gp]
+root           4       2  0 18:31 ?        00:00:00 [rcu_par_gp]
+======================
+Sat Apr 13 09:31:38 PM EET 2024
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 18:31 ?        00:00:04 /usr/lib/systemd/systemd rhgb --switched-root --system --deserialize 31
+root           2       0  0 18:31 ?        00:00:00 [kthreadd]
+root           3       2  0 18:31 ?        00:00:00 [rcu_gp]
+root           4       2  0 18:31 ?        00:00:00 [rcu_par_gp]
+======================

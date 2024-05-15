@@ -1,0 +1,14 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker build -t myImg-f Dockerfile.dev .
+
+#after we build the img we need to test it by adding npm run test but its require
+# a i/p from used to complete the test to we add an arg as i/p
+
+script:
+  - docker run myImg npm run test -- --coverge
+

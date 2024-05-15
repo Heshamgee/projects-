@@ -1,0 +1,6 @@
+# /bin/bash	
+
+read -p "your name : " name 
+read -sp "your age : " age 
+echo "name : $name , age :$age " 
+

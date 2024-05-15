@@ -1,0 +1,10 @@
+FROM node:alpine 
+
+WORKDIR '/docker'
+
+COPY package.json .
+
+COPY . .
+
+CMD ["npm","run","start"]
+
